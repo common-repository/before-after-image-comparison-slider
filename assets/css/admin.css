@@ -1,0 +1,137 @@
+.wpx-tab-menu {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #39008f;
+}
+.wpx-tab-menu a { 
+    float: left;
+    border-right: 1px solid #fff;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+} 
+.wpx-tab-menu a span.dashicons{
+    vertical-align: text-top;
+    pointer-events: none;
+}
+.wpx-tab-menu a.active { 
+    background-color: #fff;
+    color: #222;
+}
+.wpx-tab-content{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+}
+.wpx-metabox-body tr td:first-child {
+    width: 220px;
+}
+.wpx-metabox-body tr { 
+    border-bottom: 1px solid #ddd;
+    padding: 30px 0 !important; 
+    display: block;
+} 
+tr.text-field.wpx-meta-field + tr.no-sep {
+    padding-top: 30px !important;
+}
+tr.no-sep + tr.wpx-meta-field {
+    margin-top: 25px;
+    border-top: 1px solid #ddd;
+} 
+.wpx-metabox-body tr:last-child{
+    border-bottom: 0;
+}
+tr.text-field.no-sep {
+    border: 0 !important;
+    padding: 5px 0 !important;
+    margin: 0 !important;
+}
+tr.text-field.no-sep  td:nth-child(2) .description{
+    margin-bottom: 0;
+}
+.wpx-metabox-body tr td:nth-child(2) label {
+    display: block;
+    margin: 5px 0;
+}
+.wpx-metabox-body tr.short input {
+    width: 70px !important;
+}
+.show{
+    display: block !important;
+}
+.hide{
+    display: none !important;
+}
+.img-wrap {
+    float: left;
+    margin-right: 15px;
+    position: relative;
+}
+.img-wrap:hover .img-remove{
+    display: block;
+}
+.img-remove {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border: 1px solid red;
+    color: red;
+    width: 15px;
+    text-align: center;
+    height: 15px;
+    line-height: 15px;
+}
+.image-preview {
+    border: 1px solid #ddd;
+}
+td.shortcode.column-shortcode {
+    position: relative;
+}
+td.shortcode.column-shortcode .shortcode-display{
+    width: 150px;
+}
+span.copytext-notice { 
+    position: absolute;
+    top: 8px;
+    margin-left: 8px;
+    background: #39008f;
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;  
+}
+span.copytext-notice.hide{
+    display: none;  
+}
+.slider-preview {
+    max-width: 120px;
+    width: 100%;
+    position: relative;
+    height: 85px;
+}
+.slider-preview .before, 
+.slider-preview .after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.slider-preview .after {
+    width: 50%;
+}
+.slide-img{
+    height: 100%;
+}
+.wpx-colorpicker-wrap .wp-picker-container label {
+    display: inline-block !important;
+    margin: 0 !important;
+}
